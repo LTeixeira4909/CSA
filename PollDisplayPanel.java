@@ -122,7 +122,7 @@ public class PollDisplayPanel extends JPanel
   // Returns the number of degrees in a pie slice that
   // corresponds to count / total, rounded to the nearest integer.
   private int countToDegrees(int count, int total){
- double angle = ((double)count/total)*360 + 1;
+ double angle = ((double)count/total)*360 + .5;
 
     return (int)angle;
   }
