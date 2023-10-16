@@ -15,7 +15,7 @@ public class PollDisplayPanel extends JPanel
 
 
   // Constructor
-  public PollDisplayPanel(String nm1, String nm2, String nm3,int count1,int count2,int count3 )
+  public PollDisplayPanel(String nm1, String nm2, String nm3)
 
   {
 
@@ -84,9 +84,13 @@ public class PollDisplayPanel extends JPanel
       degrees = countToDegrees(count1, total);
       drawSector(g, x, y, r, fromDegree, degrees);
 
-      //_________________________________________________
+     g.setColor(Color.GREEN);
+      degrees = countToDegrees(count2, total);
+      drawSector(g, x, y, r, fromDegree, degrees);
 
-      //...
+      g.setColor(Color.BLUE);
+      degrees = countToDegrees(count3, total);
+      drawSector(g, x, y, r, fromDegree, degrees);
     }
     else
     {
