@@ -118,6 +118,50 @@ public class Conditionals {
         System.out.println(c.blackjack(8, 8));
         System.out.println(c.blackjack(25, 24));
         System.out.println(c.blackjack(17, 9));
-        System.out.println(c.blackjack(12, 18));     
+        System.out.println(c.blackjack(12, 18));
     }
 }
+
+// output
+
+// true
+// true
+// false
+// false
+
+// true
+// true
+// false
+// false
+// true
+// true
+// false
+// true
+
+// false
+// false
+// true
+// true
+// false
+// true
+
+// 7
+// 7
+// 10
+// 10
+// 10
+// 0
+
+// true
+// false
+// true
+// true
+// false
+
+// 21
+// 21
+// 19
+// 8
+// 0
+// 17
+// 18
