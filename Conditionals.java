@@ -113,5 +113,11 @@ public class Conditionals {
         System.out.println();
 
         System.out.println(c.blackjack(19, 21));
+        System.out.println(c.blackjack(21, 19));
+        System.out.println(c.blackjack(19, 22));
+        System.out.println(c.blackjack(8, 8));
+        System.out.println(c.blackjack(25, 24));
+        System.out.println(c.blackjack(17, 9));
+        System.out.println(c.blackjack(12, 18));     
     }
 }
