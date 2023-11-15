@@ -109,3 +109,47 @@ public class MoreConditionals {
 
     }
 }
+
+// output
+
+// isLeapYear
+// 2000 true
+// 2004 true
+// 2003 false
+// 2100 false
+
+// isSooner
+
+// 1/2/2010 is sooner than 1/2/2011 false
+// 2/1/2011 is sooner than 2/2/2010 true
+// 1/2/2011 is sooner than 2/2/2010 true
+// 1/5/2010 is sooner than 3/2/2010 false
+// 3/2/2010 is sooner than 1/2/2010 true
+// 1/3/2010 is sooner than 1/2/2010 true
+// 5/2/2010 is sooner than 1/3/2011 false
+// 1/2/2010 is sooner than 1/2/2010 false
+// 4/8/2010 is sooner than 1/2/2010 true
+
+// Best Fit
+
+// Find Best fit 6 2 3 is 2
+// Find Best fit 6 4 3 is 0
+// Find Best fit 6 3 4 is 2
+// Find Best fit 1 2 3 is 3
+// Find Best fit 4 6 3 is 0
+// Find Best fit 4 3 6 is 1
+// Find Best fit 4 3 3 is 2
+// Find Best fit 4 4 3 is 0
+
+// Make benches
+
+// Make benches 3 1 8 is true
+// Make benches 3 1 9 is false
+// Make benches 11 1 15 is true
+// Make benches 4 2 15 is false
+// Make benches 20 0 20 is true
+// Make benches 3 4 20 is true
+// Make benches 0 6 30 is true
+// Make benches 0 5 30 is false
+// Make benches 2 6 23 is false
+// Make benches 3 2 23 is false
