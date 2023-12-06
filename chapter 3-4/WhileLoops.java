@@ -83,8 +83,10 @@ public class WhileLoops {
         System.out.println();
         System.out.println("isPerfectSquare");
 
+        System.out.println(wl.isPerfectSquare(9));
         System.out.println(wl.isPerfectSquare(25));
         System.out.println(wl.isPerfectSquare(19));
+        System.out.println(wl.isPerfectSquare(43));
     }
 }
 
@@ -130,4 +132,6 @@ public class WhileLoops {
 
 // isPerfectSquare
 // true
+// true
+// false
 // false
