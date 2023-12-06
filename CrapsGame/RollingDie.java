@@ -28,15 +28,15 @@ public class RollingDie extends Die {
     }
 
     // Starts this die rolling
-    public void roll() {
-        super.roll();
-        int width = tableRight - tableLeft;
-        int height = tableBottom - tableTop;
-        xCenter = tableLeft;
-        yCenter = tableTop + height / 2;
-        xSpeed = width * (Math.random() + 1) * speedFactor;
-        ySpeed = height * (Math.random() - .5) * 2. * speedFactor;
-    }
+    // public void roll() {
+    // super.roll();
+    // int width = tableRight - tableLeft;
+    // int height = tableBottom - tableTop;
+    // xCenter = tableLeft;
+    // yCenter = tableTop + height / 2;
+    // xSpeed = width * (Math.random() + 1) * speedFactor;
+    // ySpeed = height * (Math.random() - .5) * 2. * speedFactor;
+    // }
 
     // Returns true if this die is rolling; otherwise
     // returns false
