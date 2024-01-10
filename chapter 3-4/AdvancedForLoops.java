@@ -1,3 +1,4 @@
+
 public class AdvancedForLoops {
     public static void eights() {
         for (int i = 8; i > 0; i -= 2) {
