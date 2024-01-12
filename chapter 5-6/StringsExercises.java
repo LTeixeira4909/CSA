@@ -78,17 +78,21 @@ public static String removeTag(String s1, String s2){
 
 
 public static void main(String[] args) {
+    System.out.println(scroll("scroll"));
     System.out.println(scroll("Hello World"));
     System.out.println(scroll("happy"));
     System.out.println(scroll("h"));
 
+    System.out.println("convertName");
     System.out.println(convertName(" Reubenstein, Lori Renee "));
     System.out.println(convertName("Biden,Joe"));
     System.out.println(convertName("the Clown, Bozo"));
 
+    System.out.println("negative");
     System.out.println(negative("0010111001"));
     System.out.println(negative("11111111"));
 
+    System.out.println("dateString");
     System.out.println("04/20/2014 becomes " + dateString("04/20/2014"));
     System.out.println("04/20/2014 becomes" + dateString2("04/20/2014"));
     System.out.println("4/20/2014 becomes" + dateString2("4/20/2014"));
@@ -96,20 +100,21 @@ public static void main(String[] args) {
     System.out.println("4/2/2014 becomes" + dateString2("4/2/2014"));
     System.out.println("\nstartsWith");
 
+    System.out.println("startsWith");
     System.out.println(startsWith("architecture", "arch"));
     System.out.println(startsWith("architecture", "a"));
     System.out.println(startsWith("arch", "architecture"));
     System.out.println(startsWith("architecture", "rch"));
-    System.out.println(startsWith("architecture", "architecture"));
-    System.out.println("\nendsWith");
-
+    System.out.println(startsWith("architecture", "architecture"));     
+    
+    System.out.println("endsWith");
     System.out.println(endsWith("astronomy", "nomy"));
     System.out.println(endsWith("astronomy", "y"));
     System.out.println(endsWith("astronomy", "nom"));
     System.out.println(endsWith("nomy", "astronomy"));
     System.out.println(endsWith("astronomy", "astronomy"));
-    System.out.println("\nremoveTag");
-
+    
+    System.out.println("removeTag");
     System.out.println(removeTag("<b>Hello World</b>", "b"));
     System.out.println(removeTag("<b>Hello World</b>", "head"));
     System.out.println(removeTag("Hello World</b>", "b"));
@@ -122,3 +127,49 @@ public static void main(String[] args) {
 
     }
 }
+//scroll
+// ello WorldH
+// appyh
+// h
+
+// convertName
+// Lori Renee Reubenstein
+// Joe Biden
+// Bozo the Clown
+
+// negative
+// 1101000110
+// 00000000
+
+// dateString
+// 04/20/2014 becomes 20-04-2014
+
+// dateString2
+// 04/20/2014 becomes 20-04-2014
+// 4/20/2014 becomes 20-4-2014
+// 04/2/2014 becomes 2-04-2014
+// 4/2/2014 becomes 2-4-2014
+
+// startsWith
+// true
+// true
+// false
+// false
+// true
+
+// endsWith
+// true
+// true
+// false
+// false
+// true
+
+// removeTag
+// Hello World
+// <b>Hello World</b>
+// Hello World</b>
+// <b>Hello World
+// </img>Hello World<img>
+// Happy Birthday Hello World
+// Hello World Happy Birthday
+// Happy Hello World Birthday
